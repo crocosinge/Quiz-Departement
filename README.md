@@ -13,7 +13,3 @@ Un petit quiz interactif pour tester vos connaissances sur les départements de 
 ## 🚀 Démo en ligne
 
 👉 [Jouer au quiz] : https://crocosinge.github.io/Quiz-Departement/
-
-## 📦 Installation locale
-
-
