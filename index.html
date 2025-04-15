@@ -86,24 +86,32 @@
                     >
                 </div>
                 
+                <!-- Submit button -->
+                <button 
+                    id="submit-btn" 
+                    class="w-full mb-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center"
+                >
+                    <i class="fas fa-check mr-2"></i> Valider
+                </button>
+                
                 <!-- Feedback message -->
                 <div id="feedback" class="h-8 mb-4 text-center font-medium"></div>
                 
-                <!-- Buttons -->
-                <div class="flex space-x-3">
-                    <button 
-                        id="submit-btn" 
-                        class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center"
-                    >
-                        <i class="fas fa-check mr-2"></i> Valider
-                    </button>
-                    <button 
-                        id="next-btn" 
-                        class="flex-1 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center hidden"
-                    >
-                        <i class="fas fa-arrow-right mr-2"></i> Suivant
-                    </button>
-                </div>
+                <!-- Next button -->
+                <button 
+                    id="next-btn" 
+                    class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center hidden"
+                >
+                    <i class="fas fa-arrow-right mr-2"></i> Suivant
+                </button>
+                
+                <!-- Reset button -->
+                <button 
+                    id="reset-btn" 
+                    class="w-full mt-4 bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center"
+                >
+                    <i class="fas fa-sync-alt mr-2"></i> Recommencer
+                </button>
             </div>
             
             <!-- Results screen -->
@@ -129,8 +137,8 @@
     </main>
 
     <footer class="bg-gray-800 text-white py-4 text-center text-sm">
-        <p>Quiz sur les départements français</p>
-        <p class="mt-1">© Croco quiz</p>
+        <p>Quiz couvrant les 96 départements français (1-95 + 2A/2B pour la Corse)</p>
+        <p class="mt-1">© 2023 Quiz Géographie Française</p>
     </footer>
 
     <script>
@@ -247,6 +255,7 @@
             const answerInputEl = document.getElementById('answer-input');
             const submitBtn = document.getElementById('submit-btn');
             const nextBtn = document.getElementById('next-btn');
+            const resetBtn = document.getElementById('reset-btn');
             const scoreEl = document.getElementById('score');
             const progressEl = document.getElementById('progress');
             const progressBarEl = document.getElementById('progress-bar');
@@ -379,6 +388,8 @@
             });
             
             nextBtn.addEventListener('click', showNextDepartment);
+            
+            resetBtn.addEventListener('click', initGame);
             
             restartBtn.addEventListener('click', initGame);
             
