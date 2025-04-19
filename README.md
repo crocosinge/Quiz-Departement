@@ -10,4 +10,4 @@
 - Résultat final avec évaluation
 - Interface responsive avec Tailwind CSS
 
-👉 [Jouer au quiz] : https://crocosinge.github.io/Quiz-Departement/
+👉 Jouer au quiz : https://crocosinge.github.io/Quiz-Geographie/
