@@ -22,7 +22,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen">
+<body class="bg-gray-50 min-h-screen flex flex-col">
     <!-- Header -->
     <header class="bg-blue-700 shadow-md">
         <div class="container mx-auto px-4 py-6">
@@ -31,7 +31,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8">
+    <main class="container mx-auto px-4 py-8 flex-grow">
         <!-- Welcome Message -->
         <section class="text-center mb-12">
             <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
@@ -47,11 +47,11 @@
             <!-- Quiz 1 -->
             <a href="quiz departements français.html" class="block">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
-                    <div class="h-3 bg-green-500"></div>
+                    <div class="h-3 bg-blue-500"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
-                            <div class="bg-green-100 p-3 rounded-full mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
@@ -62,31 +62,14 @@
             </a>
 
             <!-- Quiz 2 -->
-            <a href="quiz capitales Europe.html" class="block">
-                <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
-                    <div class="h-3 bg-blue-500"></div>
-                    <div class="p-6">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-blue-100 p-3 rounded-full mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                </svg>
-                            </div>
-                            <h3 class="text-xl font-bold text-gray-800">Capitales d'Europe</h3>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <!-- Quiz 3 -->
             <a href="quiz capitales Afrique.html" class="block">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
-                    <div class="h-3 bg-yellow-500"></div>
+                    <div class="h-3 bg-green-500"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
-                            <div class="bg-yellow-100 p-3 rounded-full mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
                             <h3 class="text-xl font-bold text-gray-800">Capitales d'Afrique</h3>
@@ -95,15 +78,15 @@
                 </div>
             </a>
 
-            <!-- Quiz 4 -->
-            <a href="quiz capitales Amériquee.html" class="block">
+            <!-- Quiz 3 -->
+            <a href="quiz capitales Amérique.html" class="block">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                     <div class="h-3 bg-red-500"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <div class="bg-red-100 p-3 rounded-full mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
                             <h3 class="text-xl font-bold text-gray-800">Capitales d'Amérique</h3>
@@ -112,15 +95,15 @@
                 </div>
             </a>
 
-            <!-- Quiz 5 -->
+            <!-- Quiz 4 -->
             <a href="quiz capitales Asie.html" class="block">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
-                    <div class="h-3 bg-purple-500"></div>
+                    <div class="h-3 bg-yellow-500"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
-                            <div class="bg-purple-100 p-3 rounded-full mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                            <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
                             <h3 class="text-xl font-bold text-gray-800">Capitales d'Asie</h3>
@@ -129,15 +112,32 @@
                 </div>
             </a>
 
-            <!-- Quiz 6 -->
-            <a href="quiz capitales Océanie.html" class="block">
+            <!-- Quiz 5 -->
+            <a href="quiz capitales Europe.html" class="block">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                     <div class="h-3 bg-indigo-500"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <div class="bg-indigo-100 p-3 rounded-full mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Capitales d'Europe</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Quiz 6 -->
+            <a href="quiz capitales Océanie.html" class="block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
+                    <div class="h-3 bg-purple-500"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
                             <h3 class="text-xl font-bold text-gray-800">Capitales d'Océanie</h3>
@@ -149,7 +149,7 @@
     </main>
 
     <!-- Footer -->
-   <footer class="bg-blue-700 text-white py-6 mt-12">
+   <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto px-4 text-center">
             <p>© Croco Quiz - Tous droits réservés</p>
         </div>
