@@ -1,15 +1,13 @@
-# 🇫🇷 Quiz des Départements Français
+# 🇫🇷 Quiz Géographie
 
-Un petit quiz interactif pour tester vos connaissances sur les départements de France métropolitaine.
+6 quizs pour tester ses connaissances en géographie
 
 ## 🧠 Fonctionnalités
 
-- 96 départements à deviner (avec la Corse !)
+- Départements français et Capitales du monde
 - Score en direct et barre de progression
 - Effets visuels pour bonnes/mauvaises réponses
 - Résultat final avec évaluation
 - Interface responsive avec Tailwind CSS
-
-## 🚀 Démo en ligne
 
 👉 [Jouer au quiz] : https://crocosinge.github.io/Quiz-Departement/
